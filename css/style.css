@@ -8,16 +8,18 @@ body {
     padding: 0;
 }
 
-.logo {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 115px;
+.ajuste-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
-
+ 
 .logo img {
-    width: 200px; 
+    width: 100px; 
     height: auto; 
 }
+
 
 
 .login {

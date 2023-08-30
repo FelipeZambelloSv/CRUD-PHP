@@ -9,9 +9,6 @@
 
 </head>
 <body>
-    <div class="logo">
-        <img src="./imagens/logo-calriz.png" alt="Logo Calriz">
-    </div>
 
     <div class="login">
         <div class="container">
@@ -20,8 +17,14 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-body">
-                                <h3>Login</h3>
+                                <div class="ajuste-login">
+                                    <h3>Login</h3>
+                                    <div class="logo">
+                                    <img src="./imagens/logo-calriz.png" alt="Logo Calriz">
+                                </div>
                             </div>
+                            </div>
+                           
                             <form action="login.php" method="POST">
                             <div>
                                 <div class="mb-3">

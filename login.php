@@ -1,5 +1,4 @@
 <?php 
-
     session_start();
 
     if(empty($_POST) or (empty($_POST["usuario"] or (empty($_POST["senha"]))))) {
@@ -13,11 +12,11 @@
 
     $sql = "SELECT * FROM usuarios
             WHERE usuario = '{$usuario}'
-            AND senha = '". md5($senha);
+            AND senha = '".md5($senha)."'";
 
     $res = $conn->query($sql) or die($conn->error);
 
-    $row = $res->fetch_object();
+    $row = $res->fetch_object();    
 
     $qtd = $res->num_rows;
 
