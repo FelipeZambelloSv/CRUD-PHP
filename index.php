@@ -49,6 +49,11 @@
                                     btn-primary">Enviar</button>
                                 </div>
                             </div>
+                            <div>
+                                <div class="cadastro">
+                                    <a href="formulario.php">Cadastre-se</a>
+                                </div>
+                            </div>
                             </form>
                         </div>
                     </div>
