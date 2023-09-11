@@ -1,0 +1,104 @@
+/* Reset de estilos para garantir uma base consistente */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Estilos específicos para o cabeçalho */
+.titulo {
+  text-align: center;
+  padding: 20px;
+  background-color: #353131;
+  color: #fff;
+}
+
+/* Estilos para o formulário */
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.formulario input[type="text"]:focus,
+.formulario select:focus {
+  border-color: #800080;
+}
+
+/* Estilos para o botão */
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #600000;
+}
+
+/* Estilos para a lista de tarefas */
+#minhaLista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.tarefa-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarefa {
+  margin-bottom: 10px;
+}
+
+.botao-remover {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-remover:hover {
+  background-color: #d32f2f;
+}
