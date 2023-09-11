@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    color: white;
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px 15px 0 0;
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}

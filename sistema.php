@@ -1,7 +1,6 @@
 <?php
     session_start();
     include_once('config.php');
-    // print_r($_SESSION);
     if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
     {
         unset($_SESSION['email']);
@@ -27,29 +26,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>SISTEMA | GN</title>
-    <style>
-        body{
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
-            color: white;
-            text-align: center;
-        }
-        .table-bg{
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px 15px 0 0;
-        }
-
-        .box-search{
-            display: flex;
-            justify-content: center;
-            gap: .1%;
-        }
-    </style>
+    <title>SISTEMA</title>
+    <link rel="stylesheet" href="./css/sistema.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">SISTEMA DO GN</a>
+            <a class="navbar-brand" href="#">SISTEMA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
