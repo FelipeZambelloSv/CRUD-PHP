@@ -1,8 +1,19 @@
 <?php
 
-define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', '');
-define('BASE', 'sislogin');
+    $dbHost = 'Localhost';
+    $dbUsername = 'root';
+    $dbPassword = 'root';
+    $dbName = 'formulario-gustavo';
+    
+    $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
-$conn = new MySQLi(HOST, USER, PASS, BASE);
+    // if($conexao->connect_errno)
+    // {
+    //     echo "Erro";
+    // }
+    // else
+    // {
+    //     echo "Conexão efetuada com sucesso";
+    // }
+
+?>
