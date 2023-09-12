@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Lista Tarefas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script defer src="./javascript/main.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/groovy.css">
@@ -19,7 +19,10 @@
 </head>
 
 <body>
-    <h1 class="titulo">Minha Lista de Tarefas</h1>
+    <h1 class="titulo"> 
+        Minha Lista de Tarefas
+    </h1>
+
     <div class="formulario">
         <label for="descricao">Descrição:</label>
         <input type="text" id="descricao">
