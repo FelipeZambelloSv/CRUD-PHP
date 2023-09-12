@@ -8,6 +8,8 @@ if (isset($_POST['submit'])) {
     $usuario = $_POST['usuario'];
     $telefone = $_POST['telefone'];
 
+    $senha = md5($senha);
+
     $stmt = $conexao->prepare("INSERT INTO usuarios (nome, senha, email, usuario, telefone) VALUES (?, ?, ?, ?, ?)");
     $stmt->bind_param("sssss", $nome, $senha, $email, $usuario, $telefone);
     $stmt->execute();

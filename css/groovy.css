@@ -1,14 +1,14 @@
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 0;  
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #382424;
+  background-image: linear-gradient(to right, rgb(158, 158, 158), rgb(0, 0, 0));
   color: #333;
 }
 
@@ -99,6 +99,16 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.botoes-filtro {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.botoes-filtro button {
+  margin: 0 10px; 
+}
+
 .botao-remover {
   background-color: #f44336;
   color: #fff;
@@ -112,3 +122,4 @@ button:hover {
 .botao-remover:hover {
   background-color: #d32f2f;
 }
+

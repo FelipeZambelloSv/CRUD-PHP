@@ -15,7 +15,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script defer src="./javascript/main.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/groovy.css">
-
 </head>
 
 <body>
@@ -23,7 +22,6 @@
         Minha Lista de Tarefas
     </h1>
     <a id="exit" href="./index.php" class="sair-button">Sair</a>
-
 
     <div class="formulario">
         <label for="descricao">Descrição:</label>
@@ -46,13 +44,21 @@
 
         <label for="duracao">Duração (opcional):</label>
         <input type="text" id="duracao">
+        <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+        
+        <label for="filtroPrioridade">Filtrar por Prioridade:</label>
+        <select id="filtroPrioridade">
+            <option value="todas">Todas</option>
+            <option value="alta">Alta</option>
+            <option value="baixa">Baixa</option>
+        </select>
+        <div class="botoes-filtro">
+            <button onclick="aplicarFiltro()">Aplicar Filtro</button>
+        </div>
     </div>
 
-    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    
 
     <div id="minhaLista"></div>
-
-
-
 </body>
 </html>
