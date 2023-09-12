@@ -22,10 +22,8 @@
     <h1 class="titulo"> 
         Minha Lista de Tarefas
     </h1>
+    <a id="exit" href="./index.php" class="sair-button">Sair</a>
 
-    <div class="sair">
-        <a href="./index.php">Sair</a>
-    </div>
 
     <div class="formulario">
         <label for="descricao">Descrição:</label>
