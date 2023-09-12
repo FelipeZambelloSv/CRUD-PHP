@@ -23,6 +23,10 @@
         Minha Lista de Tarefas
     </h1>
 
+    <div class="sair">
+        <a href="./index.php">Sair</a>
+    </div>
+
     <div class="formulario">
         <label for="descricao">Descrição:</label>
         <input type="text" id="descricao">
