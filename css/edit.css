@@ -1,13 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(16, 53, 4), rgb(106, 0, 0));
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
 .box{
     color: white;
     position: absolute;
@@ -20,13 +14,13 @@ a{
     width: 20%;
 }
 fieldset{
-    border: 3px solid rgb(234, 245, 255);
+    border: 3px solid dodgerblue;
 }
 legend{
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid dodgerblue;
     padding: 10px;
     text-align: center;
-    background-color: rgb(45, 11, 212);
+    background-color: dodgerblue;
     border-radius: 8px;
 }
 .inputBox{
@@ -53,9 +47,15 @@ legend{
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
-    color: 45, 11, 212;
+    color: dodgerblue;
 }
-
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
 #submit{
     background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
     width: 100%;
