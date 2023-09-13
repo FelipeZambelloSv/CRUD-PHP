@@ -73,19 +73,22 @@ function atualizarMinhaLista() {
 
     tarefaItem.innerHTML = `
     <div class="tarefa">
-      <p>descrição: ${tarefa.descricao}</p>
-      <p>autor: ${tarefa.autor}</p>
-      <p>setor: ${tarefa.setor}</p>
-      <p>prioridade: ${
+      <p style="color: white;">descrição: ${tarefa.descricao}</p>
+      <p style="color: white;">autor: ${tarefa.autor}</p>
+      <p style="color: white;">setor: ${tarefa.setor}</p>
+      <p style="color: white;">prioridade: ${
         tarefa.prioridade === 'alta' ? 'alta' : 'baixa'
       }</p>
-      <p>valor: ${tarefa.valor || '-'}</p>
-      <p>duração: ${tarefa.duracao || '-'}</p>
+      <p style="color: white;">valor: ${tarefa.valor || '-'}</p>
+      <p style="color: white;">duração: ${tarefa.duracao || '-'}</p>
       <button class="botao-remover" onclick="removerTarefa(${index})">Remover</button>
     </div>`;
 
-    tarefaItem.style.backgroundColor =
-      tarefa.prioridade === 'alta' ? '#DCADF2' : 'orange';
+    if (tarefa.prioridade === 'alta') {
+      tarefaItem.style.backgroundColor = '#105f04'; 
+    } else {
+      tarefaItem.style.backgroundColor = '#33a10a'; 
+    }
 
     minhaListaContainer.appendChild(tarefaItem);
   });

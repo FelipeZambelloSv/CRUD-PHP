@@ -16,7 +16,7 @@ body {
   position: relative;
   left: 20px;
   top: 20px;
-  background-color: #ff0000;
+  background-color: #000000;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -36,7 +36,7 @@ body {
 }
 
 .formulario {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -62,14 +62,14 @@ body {
 
 .formulario input[type="text"]:focus,
 .formulario select:focus {
-  border-color: #800080;
+  border-color: #ffffff;
 }
 
 button {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; 
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #333333;
   color: #fff;
   border: none;
   border-radius: 4px;

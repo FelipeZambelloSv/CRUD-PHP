@@ -45,6 +45,7 @@
         <label for="duracao">Duração (opcional):</label>
         <input type="text" id="duracao">
         <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+        <br/>
         
         <label for="filtroPrioridade">Filtrar por Prioridade:</label>
         <select id="filtroPrioridade">
@@ -52,6 +53,7 @@
             <option value="alta">Alta</option>
             <option value="baixa">Baixa</option>
         </select>
+       
         <div class="botoes-filtro">
             <button onclick="aplicarFiltro()">Aplicar Filtro</button>
         </div>
