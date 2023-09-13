@@ -29,7 +29,10 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <a href="./index.php">Voltar</a>
+    <div class="logo">
+        <a href="./index.php"><img src="./imagens/logo-calriz.png" alt="Logo"></a>
+    </div>
+
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>

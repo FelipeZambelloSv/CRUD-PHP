@@ -3,10 +3,11 @@ body{
     background-image: linear-gradient(to right, rgb(158, 158, 158), rgb(0, 0, 0));
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
+
+.logo img {
+    width: 150px; 
+    height: auto; 
+  }
 
 .box{
     color: white;
